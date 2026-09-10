@@ -7,4 +7,4 @@
 panjang_2003 = input('Masukkan nilai panjang: ')
 lebar_2003 = input('Masukkan nilai lebar: ')
 luas_2003 = int(panjang_2003) * int(lebar_2003)
-print("Luas =", lebar_2003)
+print("Luas =", luas_2003)
