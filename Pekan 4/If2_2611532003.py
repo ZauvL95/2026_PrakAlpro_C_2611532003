@@ -1,4 +1,13 @@
-Bagian awal berfungsi untuk menerima input IPK dari pengguna menggunakan fungsi input() lalu mengonversinya menjadi tipe data float yang disimpan dalam variabel ipk_2003.
-Bagian percabangan if berfungsi untuk mengecek apakah nilai ipk_2003 lebih besar dari 2.75. Jika kondisi terpenuhi, program akan menampilkan bahwa pengguna lulus sangat memuaskan beserta nilai IPK yang diperoleh.
-Fungsi str() digunakan untuk mengubah nilai IPK dari tipe data float menjadi tipe data string agar dapat digabungkan dengan teks menggunakan operator +.
-Bagian akhir berfungsi untuk menampilkan pesan "Program Selesai" sebagai tanda bahwa program telah selesai dijalankan.
+# Buat file dengan nama If2_NIM.py
+# Buat program untuk kondisional if
+# Nama variable ditambah 4 digit nim terakhir contoh: ipk_1234
+# Program ini mengggunakan fungsi input()
+
+ipk_2003 = float(input("Input IPK Anda: "))
+
+if ipk_2003 > 2.75:
+    print("Anda Lulus Sangat Memuaskan dengan IPK "+str(ipk_2003))
+else:
+    print("Anda Tidak Lulus")
+
+print("Program Selesai")
